@@ -1,5 +1,3 @@
-import Chance from 'chance'
+import sillyname from 'sillyname';
 
-const chance = new Chance()
-export default chance.first()
-
+export default sillyname();
